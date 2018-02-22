@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.6.RELEASE</version>
+  </parent>	
+  
+  <groupId>com.cubic.ehr</groupId>
+	  <artifactId>ehr</artifactId>
+	  <packaging>pom</packaging>
+	  <version>PARENT-1.0</version>
+	  <name>ehr</name>
+  <url>http://maven.apache.org</url>
+  
+  <properties>
+	<release.version>1.0-SNAPSHOT</release.version>
+  </properties>
+
+  <dependencies>
+  
+  	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-web</artifactId>
+			<exclusions>
+				<exclusion>
+				    <groupId>org.springframework.boot</groupId>
+				    <artifactId>spring-boot-starter-logging</artifactId>
+				</exclusion>
+			</exclusions>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+   		 <artifactId>spring-boot-starter-data-jpa</artifactId>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-context</artifactId>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-jersey</artifactId>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-orm</artifactId>
+	</dependency>
+	
+	<dependency>
+         <groupId>commons-dbcp</groupId>
+         <artifactId>commons-dbcp</artifactId>
+    </dependency>
+	
+	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.1</version>
+	    <scope>test</scope>
+	</dependency>
+	
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
+			<scope>compile</scope>
+		</dependency>
+	
+  </dependencies>
+  
+  <modules>
+    <module>ehr-common</module>
+    <module>ehr-dao</module>
+    <module>ehr-prescriber</module>
+    <module>ehr-rest</module>
+    <module>ehr-main</module>
+  </modules>
+  
+  <build>
+  	<plugins>
+    	<plugin>
+        	<groupId>org.springframework.boot</groupId>
+        	<artifactId>spring-boot-maven-plugin</artifactId>
+        	<executions>
+            	<execution>
+                	<goals>
+                    	 <goal>repackage</goal>
+                	</goals>
+                	<configuration>
+                    	<classifier>exec</classifier>
+                    </configuration>
+                </execution>
+             </executions>
+        </plugin>
+     </plugins>
+   </build>
+ 
+</project>

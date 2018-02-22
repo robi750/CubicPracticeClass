@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1514940056983_0" label="ehr" name="ehr">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ehr-common" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ehr-main" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ehr" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ehr-rest" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ehr-dao" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ehr-prescriber" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1515026732643_1" label="Window Working Set" name="Aggregate for window 1515026732643"/>
+</workingSetManager>

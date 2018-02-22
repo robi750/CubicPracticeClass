@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="boot-star" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="boot-star"/>
+			<item value="log4j"/>
+			<item value="data-jp"/>
+			<item value="jer"/>
+			<item value="boot-starter-log"/>
+			<item value="r-log4j"/>
+			<item value="pring-boot-s"/>
+			<item value="pring-boot-starter-log4j"/>
+			<item value="web"/>
+			<item value="cus"/>
+			<item value="findPrescriber"/>
+			<item value="customer"/>
+			<item value="end"/>
+			<item value="endpointInterface"/>
+			<item value="service"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="277" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="370" key="DIALOG_HEIGHT"/>
+		<item value="949" key="DIALOG_X_ORIGIN"/>
+		<item value="226" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

@@ -1,0 +1,152 @@
+2017-12-11 19:10:24,646 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2017-12-11 19:10:24,959 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2017-12-11 19:10:25,053 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) starting
+2017-12-11 19:10:25,053 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Develop\jboss-eap-7.0\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_65\jre
+	java.io.tmpdir = C:\Users\robin\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_65\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Parallels\Parallels Tools\Applications;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk-9.0.1\bin;C:\Software\apache-maven-3.5.2\bin;C:\Software\sqldeveloper;C:\Program Files\TortoiseSVN\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_65-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_65
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.65-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Develop\jboss-eap-7.0
+	jboss.host.name = robinshrest1193
+	jboss.modules.dir = C:\Develop\jboss-eap-7.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = robinshrest1193
+	jboss.qualified.host.name = robinshrest1193
+	jboss.server.base.dir = C:\Develop\jboss-eap-7.0\standalone
+	jboss.server.config.dir = C:\Develop\jboss-eap-7.0\standalone\configuration
+	jboss.server.data.dir = C:\Develop\jboss-eap-7.0\standalone\data
+	jboss.server.deploy.dir = C:\Develop\jboss-eap-7.0\standalone\data\content
+	jboss.server.log.dir = C:\Develop\jboss-eap-7.0\standalone\log
+	jboss.server.name = robinshrest1193
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Develop\jboss-eap-7.0\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Develop\jboss-eap-7.0\standalone\configuration/logging.properties
+	module.path = C:\Develop\jboss-eap-7.0\modules
+	org.jboss.boot.log.file = C:\Develop\jboss-eap-7.0\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 8.1
+	os.version = 6.3
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_65\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Develop\jboss-eap-7.0\jboss-modules.jar -mp C:\Develop\jboss-eap-7.0\modules org.jboss.as.standalone -Djboss.home.dir=C:\Develop\jboss-eap-7.0 -c standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp437
+	sun.stdout.encoding = cp437
+	user.country = US
+	user.dir = C:\Develop\jboss-eap-7.0\bin
+	user.home = C:\Users\robin
+	user.language = en
+	user.name = robin
+	user.script = 
+	user.timezone = America/Chicago
+	user.variant = 
+2017-12-11 19:10:25,053 DEBUG [org.jboss.as.config] (MSC service thread 1-3) VM Arguments: -Xloggc:C:\Develop\jboss-eap-7.0\standalone\log\gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -Dprogram.name=standalone.bat -Xms1G -Xmx1G -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Develop\jboss-eap-7.0\standalone\log\server.log -Dlogging.configuration=file:C:\Develop\jboss-eap-7.0\standalone\configuration/logging.properties 
+2017-12-11 19:10:26,906 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-12-11 19:10:26,922 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.3.6.Final-redhat-1
+2017-12-11 19:10:26,937 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2017-12-11 19:10:27,015 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-12-11 19:10:27,109 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.18.Final-redhat-1
+2017-12-11 19:10:27,172 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2017-12-11 19:10:27,187 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-12-11 19:10:27,250 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2017-12-11 19:10:27,312 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 32 (per class), which is derived from thread worker pool sizing.
+2017-12-11 19:10:27,312 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 8 (per class), which is derived from the number of CPUs on this host.
+2017-12-11 19:10:27,437 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2017-12-11 19:10:27,468 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-12-11 19:10:27,500 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-12-11 19:10:27,562 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-12-11 19:10:27,579 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2017-12-11 19:10:27,593 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-12-11 19:10:27,609 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2017-12-11 19:10:27,609 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2017-12-11 19:10:27,672 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-12-11 19:10:27,718 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.6.Final-redhat-1
+2017-12-11 19:10:27,859 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2017-12-11 19:10:28,062 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path 'C:\Develop\jboss-eap-7.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-12-11 19:10:28,062 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-12-11 19:10:28,125 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2017-12-11 19:10:28,187 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2017-12-11 19:10:28,531 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8091
+2017-12-11 19:10:28,765 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-2) WFLYIIOP0009: CORBA ORB Service started
+2017-12-11 19:10:28,937 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2017-12-11 19:10:28,953 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Develop\jboss-eap-7.0\standalone\deployments
+2017-12-11 19:10:29,046 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-12-11 19:10:29,156 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2017-12-11 19:10:29,406 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2017-12-11 19:10:29,390 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=C:\Develop\jboss-eap-7.0\standalone\data\activemq\journal,bindingsDirectory=C:\Develop\jboss-eap-7.0\standalone\data\activemq\bindings,largeMessagesDirectory=C:\Develop\jboss-eap-7.0\standalone\data\activemq\largemessages,pagingDirectory=C:\Develop\jboss-eap-7.0\standalone\data\activemq\paging)
+2017-12-11 19:10:29,437 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2017-12-11 19:10:29,547 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2017-12-11 19:10:29,547 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2017-12-11 19:10:29,868 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-12-11 19:10:29,868 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-12-11 19:10:29,868 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-12-11 19:10:29,868 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-12-11 19:10:29,986 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2017-12-11 19:10:29,986 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [nodeID=3e60f321-ded9-11e7-844a-b36c8e2c0fa2] 
+2017-12-11 19:10:30,001 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 64) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2017-12-11 19:10:30,033 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2017-12-11 19:10:30,158 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0007: Registered connection factory java:/JmsXA
+2017-12-11 19:10:30,158 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 66) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-12-11 19:10:30,205 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221003: trying to deploy queue jms.queue.DLQ
+2017-12-11 19:10:30,236 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-3) Resource adaptor started
+2017-12-11 19:10:30,251 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-3) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2017-12-11 19:10:30,251 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2017-12-11 19:10:30,251 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-12-11 19:10:30,502 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-12-11 19:10:30,502 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-12-11 19:10:30,502 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) started in 6231ms - Started 306 of 591 services (386 services are lazy, passive or on-demand)
+2017-12-11 19:25:03,900 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 74) WFLYDR0001: Content added at location C:\Develop\jboss-eap-7.0\standalone\data\content\6f\7df164206662c02c947826eb496cd05f8db306\content
+2017-12-11 19:25:03,944 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "sample-app.war" (runtime-name: "sample-app.war")
+2017-12-11 19:25:04,563 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0021: Registered web context: /sample-app
+2017-12-11 19:25:04,630 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 74) WFLYSRV0010: Deployed "sample-app.war" (runtime-name : "sample-app.war")

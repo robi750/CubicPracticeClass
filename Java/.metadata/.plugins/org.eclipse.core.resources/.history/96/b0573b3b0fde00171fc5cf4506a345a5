@@ -1,0 +1,21 @@
+package com.robi.messengerApp.resources;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import com.robi.messengerApp.model.Message;
+
+@Path("/messages") // this path will map to url messages
+public class MessageResource {
+
+	@GET // this will map to get url request
+	@Produces(MediaType.APPLICATION_XML)
+	public List<Message> getMessages() {
+		return messageService.getAllMessages();
+	}
+
+}

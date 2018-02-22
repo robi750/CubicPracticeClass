@@ -1,0 +1,53 @@
+package com.cupic.jpa;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import com.cubic.jpa.entity.CustomerEntity;
+
+public class JPAFindRecordTest {
+
+	public static void main(String[] args) {
+		EntityManagerFactory emf = null;
+		EntityManager em = null;
+		EntityTransaction et = null;
+		try {
+			emf = Persistence.createEntityManagerFactory("OracleUnit");
+			em = emf.createEntityManager();
+			System.out.println("Connection Exablishe....!!!");
+
+			final CustomerEntity entity = em.find(CustomerEntity.class, new Long(1000));
+			System.out.println("customer entity =" + entity);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			if (em != null) {
+				em.close();
+			}
+
+			if (emf != null) {
+				emf.close();
+			}
+		}
+
+	}
+
+	private static CustomerEntity createCustomerEntity() {
+
+		CustomerEntity entity = new CustomerEntity();
+		entity.setFirstName("Ethan");
+		entity.setLastName("Hunt");
+		entity.setSsn("123352345");
+		return entity;
+
+	}
+
+	/*
+	 * private static CustomerEntity CustomerEntity() { CustomerEntity entity = new
+	 * CustomerEntity(); entity.setFirstName("James"); entity.setLastName("Barr");
+	 * entity.setSsn("111-22-3333"); return entity; }
+	 */
+}

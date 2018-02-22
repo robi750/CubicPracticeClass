@@ -1,0 +1,18 @@
+package com.robi.messengerApp.model;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement // help to convert data to xml format
+public class Profile {
+	private Long id;
+	private String profileName;
+	private String firstName;
+	private String lastName;
+	private Date created;
+	
+	public Profile() {
+	}
+	
+
+
+}

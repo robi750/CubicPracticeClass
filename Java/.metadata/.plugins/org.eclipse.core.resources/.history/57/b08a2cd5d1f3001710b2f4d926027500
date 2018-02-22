@@ -1,0 +1,29 @@
+package com.cubic.soap;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.List;
+
+import com.cubic.soap.product.service.ProductInfo;
+import com.cubic.soap.product.service.ProductSearchCriteria;
+import com.cubic.soap.product.service.ProductSearchResponseType;
+import com.cubic.soap.product.service.ProductService;
+import com.cubic.soap.product.service.ProductServicePortType;
+
+public class ProductSoapTestClient {
+
+	public static void main(String[] args) throws MalformedURLException {
+		String endPointUrl = "http://localhost:8082/sample-soapws/ProductService?wsdl";
+		final ProductService psClient = new ProductService(new URL(endPointUrl));
+		final ProductServicePortType psPort = psClient.getProductServicePort();
+		final ProductSearchCriteria request = new ProductSearchCriteria();
+		request.setProductName("Test");
+		ProductSearchResponseType response = psPort.search(request);
+
+		List<ProductInfo> products = response.getProductInfo();
+		for (ProductInfo product : products) {
+			System.out.println(product.getProductName() + "   " + product.getProductDesc());
+		}
+	}
+
+}

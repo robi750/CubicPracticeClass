@@ -1,0 +1,67 @@
+package com.cubic.inv;
+
+public class ProductVO {
+
+	private String productName;
+	private String productDesc;
+	private String productVersion;
+	private double productPrice;
+	private int count;
+	private int productSerial;
+
+	public int getProductSerial() {
+		return productSerial;
+	}
+
+	public void setProductSerial(int productSerial) {
+		this.productSerial = productSerial;
+	}
+
+	public int getCount() {
+		return count;
+	}
+
+	public void setCount(int count) {
+		this.count = count;
+	}
+
+	public String getProductName() {
+		return productName;
+	}
+
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+
+	public String getProductDesc() {
+		return productDesc;
+	}
+
+	public void setProductDesc(String productDesc) {
+		this.productDesc = productDesc;
+	}
+
+	public String getProductVersion() {
+		return productVersion;
+	}
+
+	public void setProductVersion(String productVersion) {
+		this.productVersion = productVersion;
+	}
+
+	public double getProductPrice() {
+		return productPrice;
+	}
+
+	public void setProductPrice(double productPrice) {
+		this.productPrice = productPrice;
+	}
+
+	// TO STRING ROBIN
+	@Override
+	public String toString() {
+		return "ProductVO [productName=" + productName + ", productDesc=" + productDesc + ", productVersion="
+				+ productVersion + ", productPrice=" + productPrice + ", count=" + count + "]";
+	}
+
+}

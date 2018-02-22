@@ -1,0 +1,12 @@
+package com.robi.messengerApp.resources;
+
+import javax.ws.rs.Path;
+
+@Path("/messages") // this path will map to url messages
+public class MessageResource {
+
+	public String getMessages() {
+		return "Hello World!";
+	}
+
+}

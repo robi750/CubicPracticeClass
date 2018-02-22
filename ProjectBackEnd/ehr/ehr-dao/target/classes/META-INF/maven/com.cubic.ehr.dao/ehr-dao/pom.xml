@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.cubic.ehr</groupId>
+    <artifactId>ehr</artifactId>
+    <version>PARENT-1.0</version>
+  </parent>
+  <groupId>com.cubic.ehr.dao</groupId>
+  <artifactId>ehr-dao</artifactId>
+  <version>${release.version}</version>
+  <name>ehr-dao</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+		<groupId>com.cubic.ehr.common</groupId>
+		<artifactId>ehr-common</artifactId>
+		<version>${release.version}</version>		
+	</dependency>
+	
+    <dependency>
+      <groupId>com.oracle</groupId>
+      <artifactId>ojdbc5</artifactId>
+      <version>11.2.0.3</version>
+    </dependency>
+    
+	<dependency>
+	    <groupId>org.hibernate</groupId>
+	    <artifactId>hibernate-entitymanager</artifactId>
+	</dependency>
+
+  </dependencies>
+</project>

@@ -1,0 +1,5 @@
+package com.robi.messengerApp.database;
+
+public class DatabaseClass {
+
+}

@@ -1,0 +1,12 @@
+mvn archetype:generate -DgroupId=com.cubic -DartifactId=product-api -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mvn archetype:generate -DgroupId=com.cubic.ehr.common -DartifactId=ehr-common -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mvn archetype:generate -DgroupId=com.cubic.ehr.prescriber -DartifactId=ehr-prescriber -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mvn archetype:generate -DgroupId=com.cubic.ehr.rest -DartifactId=ehr-rest -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mvn archetype:generate -DgroupId=com.cubic.ehr.main -DartifactId=ehr-main -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+mvn spring-boot:run -Dserver.port8090

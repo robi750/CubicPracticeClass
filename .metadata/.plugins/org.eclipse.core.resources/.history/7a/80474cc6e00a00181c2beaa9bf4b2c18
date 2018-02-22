@@ -1,0 +1,11 @@
+package com.cubic.rest;
+
+import javax.imageio.spi.RegisterableService;
+
+import org.glassfish.jersey.server.ResourceConfig;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SampleRestConfig extends ResourceConfig{
+	//register(HelloWorld.class);
+}

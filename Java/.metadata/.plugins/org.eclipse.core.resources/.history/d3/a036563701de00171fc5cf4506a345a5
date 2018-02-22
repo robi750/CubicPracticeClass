@@ -1,0 +1,5 @@
+package com.robi.messengerApp.resources;
+
+public class MessageResource {
+
+}

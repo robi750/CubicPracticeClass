@@ -1,0 +1,54 @@
+package com.robi.messengerApp.model;
+
+import java.util.Date;
+
+public class Message {
+
+	private long id;
+	private String message;
+	private Date created;
+	private String outhor;
+	
+	
+
+	public Message(long id, String message, String author) {
+		super();
+		this.id=id;
+		this.message=message;
+		this.created=new Date();
+		this.outhor=author;
+	}
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		message = message;
+	}
+
+	public Date getCreated() {
+		return created;
+	}
+
+	public void setCreated(Date created) {
+		this.created = created;
+	}
+
+	public String getOuthor() {
+		return outhor;
+	}
+
+	public void setOuthor(String outhor) {
+		this.outhor = outhor;
+	}
+
+}

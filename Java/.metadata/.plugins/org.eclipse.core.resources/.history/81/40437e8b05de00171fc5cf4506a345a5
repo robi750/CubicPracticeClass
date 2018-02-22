@@ -1,0 +1,5 @@
+package com.robi.messengerApp.model;
+
+public class Message {
+
+}

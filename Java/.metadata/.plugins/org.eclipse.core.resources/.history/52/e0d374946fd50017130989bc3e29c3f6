@@ -1,0 +1,7 @@
+package com.cubic.svnTest;
+
+public class VendorType {
+	
+	private String b;
+
+}

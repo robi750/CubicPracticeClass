@@ -1,0 +1,19 @@
+package com.robi.messengerApp.Service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.robi.messengerApp.model.Message;
+
+public class MessageService {
+
+	public static List<Message> getAllMessages() {
+		Message m1 = new Message(1L, "Hello World", "Robin");
+		Message m2 = new Message(2L, "Hello World", "Robin");
+		List<Message> list = new ArrayList<>();
+		list.add(m1);
+		list.add(m2);
+		return list;
+	}
+
+}

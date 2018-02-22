@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>logger implemented. </CommitComment>
+	<CommitComment>log4j working </CommitComment>
+	<CommitComment>prescriberServiceImpl.java updated</CommitComment>
+	<CommitComment>Validation done</CommitComment>
+	<CommitComment>validation class, exception and exception handler done. 
+create method have validation done.</CommitComment>
+	<CommitComment>Active DeActive done</CommitComment>
+	<CommitComment>Active DeActive is done</CommitComment>
+	<CommitComment>Log4j configured</CommitComment>
+	<CommitComment>1/10/18 @get with ID, @get with firstName/lastName/deaNumber, @post, @put, @delete  Working good</CommitComment>
+	<CommitComment>Update: @Get from Id, @Get from firstName/lastName or deaNumber </CommitComment>
+</CommitComments>

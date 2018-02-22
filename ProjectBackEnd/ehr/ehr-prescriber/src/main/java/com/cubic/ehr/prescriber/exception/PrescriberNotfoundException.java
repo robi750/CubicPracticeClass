@@ -1,0 +1,35 @@
+package com.cubic.ehr.prescriber.exception;
+
+public class PrescriberNotfoundException extends RuntimeException {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public PrescriberNotfoundException() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public PrescriberNotfoundException(String arg0, Throwable arg1, boolean arg2, boolean arg3) {
+		super(arg0, arg1, arg2, arg3);
+		// TODO Auto-generated constructor stub
+	}
+
+	public PrescriberNotfoundException(String arg0, Throwable arg1) {
+		super(arg0, arg1);
+		// TODO Auto-generated constructor stub
+	}
+
+	public PrescriberNotfoundException(String arg0) {
+		super(arg0);
+		// TODO Auto-generated constructor stub
+	}
+
+	public PrescriberNotfoundException(Throwable arg0) {
+		super(arg0);
+		// TODO Auto-generated constructor stub
+	}
+
+}

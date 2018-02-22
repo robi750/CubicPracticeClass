@@ -1,0 +1,5 @@
+package com.robi.messengerApp.Service;
+
+public class MessageService {
+
+}

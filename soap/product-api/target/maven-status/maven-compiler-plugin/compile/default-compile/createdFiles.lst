@@ -1,0 +1,7 @@
+com\cubic\soap\product\service\ProductSearchResponseType.class
+com\cubic\soap\product\service\ObjectFactory.class
+com\cubic\soap\product\service\ProductSearchCriteria.class
+com\cubic\soap\product\service\ProductServicePortType.class
+com\cubic\soap\product\service\ProductInfo.class
+com\cubic\soap\product\service\ProductService.class
+com\cubic\soap\product\service\package-info.class

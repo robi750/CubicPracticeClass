@@ -1,0 +1,12 @@
+package com.cupic.jpa;
+
+public class Test {
+	public static void main(String[] args) {
+		Test test = new Test();
+		test.Hellow();
+	}
+	
+	public void Hellow() {
+		System.out.println("This is the test !!!");
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.cubic.ehr.common.exception&apos; to &apos;ehr-common/src/main/java/com.cubic.ehr.common.exception&apos;&#x0D;&#x0A;- Original project: &apos;ehr-prescriber&apos;&#x0D;&#x0A;- Destination element: &apos;ehr-common/src/main/java/com.cubic.ehr.common.exception&apos;&#x0D;&#x0A;- Original element: &apos;ehr-prescriber/src/main/java/com.cubic.ehr.common.exception&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=ehr-common/src\/main\/java&lt;com.cubic.ehr.common.exception" element1="/src\/main\/java&lt;com.cubic.ehr.common.exception" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1515290232194" version="1.0"/>
+</session>

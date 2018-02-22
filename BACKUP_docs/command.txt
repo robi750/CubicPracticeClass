@@ -1,0 +1,16 @@
+mvn install:install-file -Dfile=ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc5 -Dversion=11.2.0.3 -Dpackaging=jar
+
+
+		Properties props = new Properties();
+		props.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.enterprise.naming.SerialInitContextFactory");
+		props.setProperty("org.omg.CORBA.ORBInitialHost", "localhost");
+		props.setProperty("org.omg.CORBA.ORBInitialPort", "3700");
+		InitialContext ctx = new InitialContext(props);	
+		
+		
+	@GenericGenerator(name="custInfoSeq",strategy="foreign",
+	parameters = @Parameter(name = "property", value = "customer"))	
+	
+	
+		@JoinTable(name = "STUDENT_COURSE", joinColumns = @JoinColumn(name = "COURSE_ID") , 
+	inverseJoinColumns = @JoinColumn(name = "STUDENT_ID") )

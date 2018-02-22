@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>Enum Created &amp; Date fixed</CommitComment>
+	<CommitComment>EnumS created &amp; DOB fixed, all methods working without validation so far</CommitComment>
+	<CommitComment>registering exceptions in main</CommitComment>
+	<CommitComment>@GET, @POST, @PUT, @FIND, @DELETE. all methods working without validations so far.</CommitComment>
+	<CommitComment>create, delete, get all methods working without validation</CommitComment>
+	<CommitComment>Create, Delete, GET all  methods are working without validation</CommitComment>
+	<CommitComment>Map</CommitComment>
+	<CommitComment>added tosting </CommitComment>
+	<CommitComment>Added toString function in ProductVO.java</CommitComment>
+	<CommitComment>Added to string function</CommitComment>
+</CommitComments>

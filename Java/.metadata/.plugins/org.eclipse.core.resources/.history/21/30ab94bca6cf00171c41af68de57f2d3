@@ -1,0 +1,88 @@
+package com.cubic.util;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Ignore;
+import org.junit.Test;
+
+public class MathUtilTest {
+
+	private MathUtil util = new MathUtil();
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+		System.out.println("setUpBeforeClass");
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+		System.out.println("tearDownAfterClass");
+
+	}
+
+	@Before
+	public void setUp() throws Exception {
+
+		System.out.println("setUp");
+
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		System.out.println("tearDown");
+
+	}
+
+	@Test
+	public void testAdd() {
+		System.out.println("testAdd");
+		int result = util.add(20, 30);
+		assertEquals(50, result);
+
+	}
+
+	@Test
+	public void testAddNegative() {
+		System.out.println("testAddNegative");
+		int result = util.add(-20, -30);
+		assertEquals(-50, result);
+		result = util.add(-20, 30);
+		assertEquals(10, result);
+		result = util.add(20, -30);
+		assertEquals(-10, result);
+
+	}
+
+	@Test
+	public void testSub() {
+		System.out.println("testSub");
+		int result = util.sub(50, 30);
+		assertEquals(20, result);
+
+	}
+
+	@Test
+	public void testDiv() {
+		System.out.println("testDiv");
+		int result = util.div(20, 10);
+		assertEquals(2, result);
+	}
+
+	@Test(expected = ArithmeticException.class)
+	public void testDivByZero() {
+		util.div(20, 0);
+	}
+
+	@Test
+	public void testMul() {
+		System.out.println("testMul");
+		int result = util.mul(5, 3);
+		assertEquals(15, result);
+
+	}
+
+}

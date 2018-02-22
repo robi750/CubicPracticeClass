@@ -1,0 +1,84 @@
+package com.cubic.inv;
+
+public class ProductVO {
+
+	private String product3;
+	private String productVersion;
+	private double productPrice;
+	private int count1;
+	private int productSerial1;
+	private int size;
+	private String test;
+
+	public String getTest() {
+		return test;
+	}
+
+	public void setTest(String test) {
+		this.test = test;
+	}
+
+	public int getProductSerial() {
+		return productSerial1;
+	}
+
+	public int getSize() {
+		return size;
+	}
+
+	public void setSize(int size) {
+		this.size = size;
+	}
+
+	public void setProductSerial(int productSerial) {
+		this.productSerial1 = productSerial;
+	}
+
+	public int getCount() {
+		return count1;
+	}
+
+	public void setCount(int count) {
+		this.count1 = count;
+	}
+
+	public String getProductName() {
+		return product3;
+	}
+
+	public void setProductName(String productName) {
+		this.product3 = productName;
+	}
+
+	public String getProductDesc() {
+		return product3;
+	}
+
+	public void setProductDesc(String productDesc) {
+		this.product3 = productDesc;
+	}
+
+	public String getProductVersion() {
+		return productVersion;
+	}
+
+	public void setProductVersion(String productVersion) {
+		this.productVersion = productVersion;
+	}
+
+	public double getProductPrice() {
+		return productPrice;
+	}
+
+	public void setProductPrice(double productPrice) {
+		this.productPrice = productPrice;
+	}
+
+	@Override
+	public String toString() {
+		return "ProductVO [productName=" + product3 + ", productDesc=" + product3 + ", productVersion=" + productVersion
+				+ ", productPrice=" + productPrice + ", count=" + count1 + ", productSerial=" + productSerial1 + "]";
+	}
+	// xfsafawdf
+
+}

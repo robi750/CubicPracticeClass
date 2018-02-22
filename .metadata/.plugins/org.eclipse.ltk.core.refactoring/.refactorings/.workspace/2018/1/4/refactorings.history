@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 7 resources" deleteContents="false" description="Delete 7 resources" element1="/ehr" element2="/ehr-common" element3="/ehr-dao" element4="/ehr-main" element5="/ehr-prescriber" element6="/ehr-rest" element7="/sample-springboot" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="7" stamp="1516663196709"/>&#x0A;<refactoring comment="Delete resource &apos;ehr-prescriber&apos;" deleteContents="false" description="Delete resource &apos;ehr-prescriber&apos;" element1="/ehr-prescriber" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1516826730242"/>
+</session>

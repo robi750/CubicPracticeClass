@@ -1,0 +1,364 @@
+[#|2018-01-08T19:09:45.701-0600|WARNING|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[S2004]: Log output channel com.sun.messaging.jmq.util.log.SysLogHandler is disabled: no imqutil in java.library.path|#]
+
+
+[#|2018-01-08T19:09:45.721-0600|FORCE|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|
+================================================================================
+Message Queue 5.0
+Oracle
+Version:  5.0  (Build 14-e)
+Compile:  April 12 2013 0104
+
+Copyright (c) 2013, Oracle and/or its affiliates.  All rights reserved.
+================================================================================
+Java Runtime: 1.8.0_65 Oracle Corporation C:\Program Files\Java\jdk1.8.0_65\jre
+|#]
+
+
+[#|2018-01-08T19:09:45.767-0600|FORCE|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|   IMQ_HOME=C:\Develop\glassfish4\mq
+|#]
+
+
+[#|2018-01-08T19:09:45.768-0600|FORCE|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|IMQ_VARHOME=C:\Develop\glassfish4\glassfish\domains\domain1\imq
+|#]
+
+
+[#|2018-01-08T19:09:45.770-0600|FORCE|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|Windows 10 10.0 amd64 10.211.55.5 (2 cpu) robin
+|#]
+
+
+[#|2018-01-08T19:09:45.778-0600|FORCE|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|Java Heap Size: max=466432k, current=365568k
+|#]
+
+
+[#|2018-01-08T19:09:45.779-0600|FORCE|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|Arguments: -port 7676 -name imqbroker -nobind -imqhome C:\Develop\glassfish4\mq -varhome C:\Develop\glassfish4\glassfish\domains\domain1\imq -libhome C:\Develop\glassfish4\mq\lib -useRmiRegistry -rmiRegistryPort 8686 -save -silent
+|#]
+
+
+[#|2018-01-08T19:09:45.779-0600|FORCE|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|JMSRA BrokerProps: imq.cluster.dynamicChangeMasterBrokerEnabled=true, imq.service.activate=jmsdirect, imq.imqcmd.password=*****, imq.jmsra.managed=true, imq.cluster.nowaitForMasterBroker=true
+|#]
+
+
+[#|2018-01-08T19:09:45.779-0600|FORCE|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|Broker Properties: imq.service.activate=jmsdirect, imq.cluster.nowaitForMasterBroker=true, imq.jmx.rmiregistry.use=true, imq.portmapper.port=7676, imq.jmsra.managed=true, imq.instancename=imqbroker, java.util.logging.ConsoleHandler.level=OFF, imq.imqcmd.password=*****, imq.jmx.rmiregistry.port=8686, imq.service.runtimeAdd=mqdirect2, imq.cluster.dynamicChangeMasterBrokerEnabled=true, imq.portmapper.bind=false
+|#]
+
+
+[#|2018-01-08T19:09:45.779-0600|FORCE|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|Embedded Broker 
+|#]
+
+
+[#|2018-01-08T19:09:45.843-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|imq.persist.minimizeWrites=true
+|#]
+
+
+[#|2018-01-08T19:09:45.844-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|imq.persist.file.minimizeWrites=false
+|#]
+
+
+[#|2018-01-08T19:09:45.860-0600|FORCE|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1060]: Loading persistent data...
+|#]
+
+
+[#|2018-01-08T19:09:45.860-0600|FORCE|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|Using built-in file-based persistent store: C:\Develop\glassfish4\glassfish\domains\domain1\imq\instances\imqbroker\
+|#]
+
+
+[#|2018-01-08T19:09:45.926-0600|WARNING|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|WARNING Existing file: incompleteTxnStorehas older cookie version than current version. Current version = 1. Original file version = 0
+|#]
+
+
+[#|2018-01-08T19:09:45.945-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B2219]: Broker property setting imq.persist.minimizeWritesLevel2=true will be ignored
+|#]
+
+
+[#|2018-01-08T19:09:45.983-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1041]: Cluster initialization successful.
+|#]
+
+
+[#|2018-01-08T19:09:46.059-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1013]: Auto Creation of Queues is enabled
+|#]
+
+
+[#|2018-01-08T19:09:46.102-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|new transaction log enabled
+|#]
+
+
+[#|2018-01-08T19:09:46.102-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|sync writes to disk = false
+|#]
+
+
+[#|2018-01-08T19:09:46.102-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|logNonTransactedMsgSend = false
+|#]
+
+
+[#|2018-01-08T19:09:46.102-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|logNonTransactedMsgAck = false
+|#]
+
+
+[#|2018-01-08T19:09:46.102-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1392]: Opening transaction log with file mode rw, maximum size 10,485,760 bytes
+|#]
+
+
+[#|2018-01-08T19:09:46.122-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1136]: Processing stored transactions
+|#]
+
+
+[#|2018-01-08T19:09:46.123-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1390]: Loading of transactions has been successfully completed
+|#]
+
+
+[#|2018-01-08T19:09:46.123-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1434]: Retrieving stored destinations
+|#]
+
+
+[#|2018-01-08T19:09:46.124-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1503]: Retrieved 0 destinations from store
+|#]
+
+
+[#|2018-01-08T19:09:46.125-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1144]: Creating Dead Message Queue
+|#]
+
+
+[#|2018-01-08T19:09:46.143-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1158]: Administrator has created destination mq.sys.dmq [Queue]
+|#]
+
+
+[#|2018-01-08T19:09:46.220-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1239]: Using platform MBean server
+|#]
+
+
+[#|2018-01-08T19:09:46.263-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|JMX Connector Server jmxrmi started successfully with url service:jmx:rmi://ROBINSHREST1193/jndi/rmi://10.211.55.5:8686/10.211.55.5/7676/jmxrmi
+|#]
+
+
+[#|2018-01-08T19:09:46.371-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1004]: Starting the admin service using tcp(host = *, port=0, mode=dedicated) with min threads 4 and max threads of 10 
+|#]
+
+
+[#|2018-01-08T19:09:46.372-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1227]: Using file user repository for admin service connection authentication
+|#]
+
+
+[#|2018-01-08T19:09:46.391-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1004]: Starting the jms service using tcp(host = *, port=0, mode=dedicated) with min threads 10 and max threads of 1000 
+|#]
+
+
+[#|2018-01-08T19:09:46.392-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1227]: Using file user repository for jms service connection authentication
+|#]
+
+
+[#|2018-01-08T19:09:46.404-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1004]: Starting the mqdirect2 service using in-process connections with min threads 0 and max threads of 0 
+|#]
+
+
+[#|2018-01-08T19:09:46.404-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1227]: Using file user repository for mqdirect2 service connection authentication
+|#]
+
+
+[#|2018-01-08T19:09:46.412-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1004]: Starting the jmsdirect service using  with min threads 0 and max threads of 0 
+|#]
+
+
+[#|2018-01-08T19:09:46.413-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1227]: Using file user repository for jmsdirect service connection authentication
+|#]
+
+
+[#|2018-01-08T19:09:46.434-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1004]: Starting the cluster service using tcp [ 0.0.0.0/0.0.0.0:50300 ] with min threads 1 and max threads of 1 
+|#]
+
+
+[#|2018-01-08T19:09:46.435-0600|INFO|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1228]: Cluster ping interval is 60 seconds
+|#]
+
+
+[#|2018-01-08T19:09:46.439-0600|FORCE|5.0|imq.log.Logger|_ThreadID=160;_ThreadName=pool-62-thread-1;|[B1039]: Broker "imqbroker@10.211.55.5:7676" ready.
+|#]
+
+
+[#|2018-01-08T19:31:07.645-0600|INFO|5.0|imq.log.Logger|_ThreadID=201;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:50351->jms:50298. Count: service=1 broker=1
+|#]
+
+
+[#|2018-01-08T19:31:08.088-0600|INFO|5.0|imq.log.Logger|_ThreadID=201;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:50351->jms:50298 because "java.net.SocketException: Connection reset". Count: service=0 broker=0
+|#]
+
+
+[#|2018-01-08T19:44:41.621-0600|INFO|5.0|imq.log.Logger|_ThreadID=202;_ThreadName=Thread-jms[1];|[B1065]: Accepting: guest@127.0.0.1:50388->jms:50298. Count: service=1 broker=1
+|#]
+
+
+[#|2018-01-08T19:44:41.821-0600|INFO|5.0|imq.log.Logger|_ThreadID=202;_ThreadName=Thread-jms[1];|[B1132]: Auto-creating destination MyQueue [Queue] 
+|#]
+
+
+[#|2018-01-08T19:44:42.486-0600|INFO|5.0|imq.log.Logger|_ThreadID=202;_ThreadName=Thread-jms[1];|[B1066]:   Closing: guest@127.0.0.1:50388->jms:50298 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=0
+|#]
+
+
+[#|2018-01-08T19:55:15.219-0600|INFO|5.0|imq.log.Logger|_ThreadID=202;_ThreadName=Thread-jms[1];|[B1065]: Accepting: guest@127.0.0.1:50416->jms:50298. Count: service=1 broker=1
+|#]
+
+
+[#|2018-01-08T19:55:16.013-0600|INFO|5.0|imq.log.Logger|_ThreadID=202;_ThreadName=Thread-jms[1];|[B1066]:   Closing: guest@127.0.0.1:50416->jms:50298 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=0
+|#]
+
+
+[#|2018-01-08T19:57:15.663-0600|INFO|5.0|imq.log.Logger|_ThreadID=174;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination MyQueue [Queue] inactive for 120 seconds
+|#]
+
+
+[#|2018-01-08T19:57:15.664-0600|INFO|5.0|imq.log.Logger|_ThreadID=174;_ThreadName=MQTimer-Thread;|[B1159]: Destination MyQueue [Queue] has been destroyed
+|#]
+
+
+[#|2018-01-08T19:57:15.667-0600|INFO|5.0|imq.log.Logger|_ThreadID=174;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination MyQueue [Queue]
+|#]
+
+
+[#|2018-01-08T20:09:28.394-0600|INFO|5.0|imq.log.Logger|_ThreadID=201;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:50439->jms:50298. Count: service=1 broker=1
+|#]
+
+
+[#|2018-01-08T20:09:28.584-0600|INFO|5.0|imq.log.Logger|_ThreadID=201;_ThreadName=Thread-jms[0];|[B1132]: Auto-creating destination MyTopic [Topic] 
+|#]
+
+
+[#|2018-01-08T20:09:28.929-0600|INFO|5.0|imq.log.Logger|_ThreadID=201;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:50439->jms:50298 because "java.net.SocketException: Connection reset". Count: service=0 broker=0
+|#]
+
+
+[#|2018-01-08T20:11:28.599-0600|INFO|5.0|imq.log.Logger|_ThreadID=174;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination MyTopic [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2018-01-08T20:11:28.600-0600|INFO|5.0|imq.log.Logger|_ThreadID=174;_ThreadName=MQTimer-Thread;|[B1159]: Destination MyTopic [Topic] has been destroyed
+|#]
+
+
+[#|2018-01-08T20:11:28.601-0600|INFO|5.0|imq.log.Logger|_ThreadID=174;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination MyTopic [Topic]
+|#]
+
+
+[#|2018-01-08T20:17:37.193-0600|INFO|5.0|imq.log.Logger|_ThreadID=202;_ThreadName=Thread-jms[1];|[B1065]: Accepting: guest@127.0.0.1:50472->jms:50298. Count: service=1 broker=1
+|#]
+
+
+[#|2018-01-08T20:17:37.349-0600|INFO|5.0|imq.log.Logger|_ThreadID=202;_ThreadName=Thread-jms[1];|[B1132]: Auto-creating destination MyTopic [Topic] 
+|#]
+
+
+[#|2018-01-08T20:17:47.564-0600|INFO|5.0|imq.log.Logger|_ThreadID=222;_ThreadName=Thread-jms[2];|[B1065]: Accepting: guest@127.0.0.1:50488->jms:50298. Count: service=2 broker=2
+|#]
+
+
+[#|2018-01-08T20:18:43.947-0600|INFO|5.0|imq.log.Logger|_ThreadID=224;_ThreadName=Thread-jms[4];|[B1065]: Accepting: guest@127.0.0.1:50503->jms:50298. Count: service=3 broker=3
+|#]
+
+
+[#|2018-01-08T20:19:20.546-0600|INFO|5.0|imq.log.Logger|_ThreadID=222;_ThreadName=Thread-jms[2];|[B1066]:   Closing: guest@127.0.0.1:50488->jms:50298 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=2 broker=2
+|#]
+
+
+[#|2018-01-08T20:19:30.876-0600|INFO|5.0|imq.log.Logger|_ThreadID=224;_ThreadName=Thread-jms[4];|[B1066]:   Closing: guest@127.0.0.1:50503->jms:50298 because "java.net.SocketException: Connection reset". Count: service=1 broker=1
+|#]
+
+
+[#|2018-01-08T20:19:36.258-0600|INFO|5.0|imq.log.Logger|_ThreadID=202;_ThreadName=Thread-jms[1];|[B1066]:   Closing: guest@127.0.0.1:50472->jms:50298 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=0
+|#]
+
+
+[#|2018-01-08T20:19:56.179-0600|INFO|5.0|imq.log.Logger|_ThreadID=201;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:50519->jms:50298. Count: service=1 broker=1
+|#]
+
+
+[#|2018-01-08T20:20:00.445-0600|INFO|5.0|imq.log.Logger|_ThreadID=225;_ThreadName=Thread-jms[5];|[B1065]: Accepting: guest@127.0.0.1:50534->jms:50298. Count: service=2 broker=2
+|#]
+
+
+[#|2018-01-08T20:20:41.366-0600|INFO|5.0|imq.log.Logger|_ThreadID=222;_ThreadName=Thread-jms[2];|[B1065]: Accepting: guest@127.0.0.1:50549->jms:50298. Count: service=3 broker=3
+|#]
+
+
+[#|2018-01-08T20:20:41.882-0600|INFO|5.0|imq.log.Logger|_ThreadID=222;_ThreadName=Thread-jms[2];|[B1066]:   Closing: guest@127.0.0.1:50549->jms:50298 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=2 broker=2
+|#]
+
+
+[#|2018-01-08T20:28:10.020-0600|INFO|5.0|imq.log.Logger|_ThreadID=201;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:50519->jms:50298 because "java.net.SocketException: Connection reset". Count: service=1 broker=1
+|#]
+
+
+[#|2018-01-08T20:28:14.043-0600|INFO|5.0|imq.log.Logger|_ThreadID=225;_ThreadName=Thread-jms[5];|[B1066]:   Closing: guest@127.0.0.1:50534->jms:50298 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=0
+|#]
+
+
+[#|2018-01-08T20:30:14.042-0600|INFO|5.0|imq.log.Logger|_ThreadID=174;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination MyTopic [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2018-01-08T20:30:14.042-0600|INFO|5.0|imq.log.Logger|_ThreadID=174;_ThreadName=MQTimer-Thread;|[B1159]: Destination MyTopic [Topic] has been destroyed
+|#]
+
+
+[#|2018-01-08T20:30:14.042-0600|INFO|5.0|imq.log.Logger|_ThreadID=174;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination MyTopic [Topic]
+|#]
+
+
+[#|2018-01-08T20:45:35.082-0600|INFO|5.0|imq.log.Logger|_ThreadID=224;_ThreadName=Thread-jms[4];|[B1065]: Accepting: guest@127.0.0.1:50590->jms:50298. Count: service=1 broker=1
+|#]
+
+
+[#|2018-01-08T20:45:35.335-0600|INFO|5.0|imq.log.Logger|_ThreadID=224;_ThreadName=Thread-jms[4];|[B1132]: Auto-creating destination MyQueue [Queue] 
+|#]
+
+
+[#|2018-01-08T20:45:35.836-0600|INFO|5.0|imq.log.Logger|_ThreadID=224;_ThreadName=Thread-jms[4];|[B1066]:   Closing: guest@127.0.0.1:50590->jms:50298 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=0
+|#]
+
+
+[#|2018-01-08T20:45:43.578-0600|INFO|5.0|imq.log.Logger|_ThreadID=225;_ThreadName=Thread-jms[5];|[B1065]: Accepting: guest@127.0.0.1:50606->jms:50298. Count: service=1 broker=1
+|#]
+
+
+[#|2018-01-08T20:45:44.193-0600|INFO|5.0|imq.log.Logger|_ThreadID=225;_ThreadName=Thread-jms[5];|[B1066]:   Closing: guest@127.0.0.1:50606->jms:50298 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=0
+|#]
+
+
+[#|2018-01-08T20:47:43.803-0600|INFO|5.0|imq.log.Logger|_ThreadID=174;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination MyQueue [Queue] inactive for 120 seconds
+|#]
+
+
+[#|2018-01-08T20:47:43.803-0600|INFO|5.0|imq.log.Logger|_ThreadID=174;_ThreadName=MQTimer-Thread;|[B1159]: Destination MyQueue [Queue] has been destroyed
+|#]
+
+
+[#|2018-01-08T20:47:43.804-0600|INFO|5.0|imq.log.Logger|_ThreadID=174;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination MyQueue [Queue]
+|#]
+
+
+[#|2018-01-08T20:51:04.825-0600|INFO|5.0|imq.log.Logger|_ThreadID=225;_ThreadName=Thread-jms[5];|[B1065]: Accepting: guest@127.0.0.1:50626->jms:50298. Count: service=1 broker=1
+|#]
+
+
+[#|2018-01-08T20:51:05.206-0600|INFO|5.0|imq.log.Logger|_ThreadID=225;_ThreadName=Thread-jms[5];|[B1132]: Auto-creating destination MyQueue [Queue] 
+|#]
+
+
+[#|2018-01-08T20:51:05.855-0600|INFO|5.0|imq.log.Logger|_ThreadID=225;_ThreadName=Thread-jms[5];|[B1066]:   Closing: guest@127.0.0.1:50626->jms:50298 because "java.net.SocketException: Connection reset". Count: service=0 broker=0
+|#]
+
+
+[#|2018-01-08T20:51:18.692-0600|INFO|5.0|imq.log.Logger|_ThreadID=224;_ThreadName=Thread-jms[4];|[B1065]: Accepting: guest@127.0.0.1:50641->jms:50298. Count: service=1 broker=1
+|#]
+
+
+[#|2018-01-08T20:51:20.461-0600|INFO|5.0|imq.log.Logger|_ThreadID=224;_ThreadName=Thread-jms[4];|[B1066]:   Closing: guest@127.0.0.1:50641->jms:50298 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=0
+|#]
+
+
+[#|2018-01-08T20:53:02.648-0600|INFO|5.0|imq.log.Logger|_ThreadID=225;_ThreadName=Thread-jms[5];|[B1065]: Accepting: guest@127.0.0.1:50658->jms:50298. Count: service=1 broker=1
+|#]
+
+
+[#|2018-01-08T20:53:03.649-0600|INFO|5.0|imq.log.Logger|_ThreadID=225;_ThreadName=Thread-jms[5];|[B1066]:   Closing: guest@127.0.0.1:50658->jms:50298 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=0
+|#]
+
+
